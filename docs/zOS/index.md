@@ -13,17 +13,17 @@ z/OS has a backwards-compatibility guarantee, meaning that applications written 
 
 ## Workload Types
 
-Workload on the Mainframe is typically categorised into two buckets: Batch, and Online. To keep analogous with a Bank, the process to update the ledger with your pending transactions would take place using batch jobs. Conversely, the service which allows you to retrieve your account balance via mobile banking would be an online service.
+Workload on the Mainframe is typically categorised into two buckets: Batch, and Online. To keep analogous with a Bank, the process to update the ledger with your pending transactions would take place in batch. Conversely, you would retrieve your account balance via mobile banking using an online service.
 
 ## Aren't Mainframes Dead?
 
 Well, ask a seasoned Mainframer and they'll tell you that claim has been bandited around for the last 40 years!
 
-Cloud is typically seen as the future platform-of-choice for all business-critical workload, and with a dwindling hiring pool, Mainframe cannot possibly survive and there is a pressing need to migrate workload.
+Cloud is typically seen as the future platform-of-choice for all business-critical workload, and with a dwindling hiring pool, there is a perception of a pressing need to migrate workload.
 
 However, by my account, this is yet to have ever been successfully undertaken (by organisations with a large Mainframe footprint). There certainly are cases of Banks etc. undertaking 'modernisation' projects, but the promises made at the start of these projects (e.g. cost reductions, improved performance) are rarely realised.
 
-However, it is certainly true that the Mainframe platform has issues: applications running on the Mainframe are often _extremely_ old. This isn't inherently bad (in fact, it shows how well architected they are - to still hold play a vital role in a world of Mobile Banking, having been developed at a time before email!), however, it is a massive undertaking to re-design these applications using modern languages and patterns. When people refer to "Mainframe Modernisation", I believe this is where efforts need to be focused.
+However, it is certainly true that the Mainframe platform has issues: applications running on the Mainframe are often _extremely_ old. This isn't inherently bad (in fact, it shows how well architected they are - to still play a vital role in a world of Mobile Banking, having been developed at a time before email!), however, it is a massive undertaking to re-design these applications using modern languages and patterns. When people refer to "Mainframe Modernisation", I believe this is where efforts need to be focused.
 
-The platform itself is capable of running all 'modern' workloads. Containerised Applications, Orchestration via OpenShift, and you can use whatever languages you like, with official SDK support from IBM: Go, Java, Node.JS, Java - whatever you want! With the development of Zowe, you can now interact with many parts of the z/OS environment via a CLI. This makes integration with a business' distributed environments straight forward.
+The platform itself is capable of running all 'modern' workloads. Containerised Applications, Orchestration via OpenShift, and you can use whatever languages you like with official SDK support from IBM: Go, Java, Node.JS, Java - whatever you want! With the development of [Zowe](https://www.zowe.org), you can now interact with many parts of the z/OS environment via a CLI. This makes integration with a business' distributed environments straight forward.
 
