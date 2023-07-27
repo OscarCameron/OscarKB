@@ -2,9 +2,9 @@
 
 ## Regions and Availability Zones
 
-Each region is in a specific geographic location.
+Each region is in a specific geographic location :earth_americas:.
 
-An Availability Zone consists of one or more data centres (for redundancy). Multiple Availibility Zones make up one AWS Region. Each AZ has redundant power, networking, and connectivity.
+An Availability Zone consists of one or more data centres (for redundancy). Multiple Availability Zones make up one AWS Region. Each AZ has redundant power, networking, and connectivity.
 
 ![Availability Zones vs Regions](https://cdn.ttgtmedia.com/rms/onlineimages/aws_availability_zones_vs_regions-f_mobile.png)
 
